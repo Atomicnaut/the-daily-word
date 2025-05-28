@@ -33,27 +33,132 @@
     </header>
 
     <main>
-        <div id="features">
-            <div class="container features">
-                <div class="feature-card">
-                    <i class="fa-regular fa-thumbs-up"></i>
-                    <h2 class="feature-title">Simple</h2>
-                    <p class="feature-text">Designed to get you reading the Holy Bible right away</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fa-regular fa-rectangle-list"></i>
-                    <h2 class="feature-title">Variety</h2>
-                    <p class="feature-text">Several different reading plans and timeframes to guide you</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fa-regular fa-calendar-check"></i>
-                    <h2 class="feature-title">Streak</h2>
-                    <p class="feature-text">Start now and read scripture everyday to keep your streak</p>
+        <!-- Features -->
+        <section id="features" class="container features">
+            <div class="feature-card">
+                <i class="fa-regular fa-thumbs-up"></i>
+                <h3 class="feature-title">Simple</h3>
+                <p class="feature-text">Designed to get you reading the Holy Bible right away</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-regular fa-rectangle-list"></i>
+                <h3 class="feature-title">Variety</h3>
+                <p class="feature-text">Several different reading plans and timeframes to guide you</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-regular fa-calendar-check"></i>
+                <h3 class="feature-title">Streak</h3>
+                <p class="feature-text">Start now and read scripture everyday to keep your streak</p>
+            </div>
+        </section>
+
+        <!-- Plans -->
+        <section id="plans" class="plans">
+            <hr class="container">
+             <!-- Classic -->
+            <div class="classic">
+                <div class="plan-image"></div>
+                <div class="plans">
+                    <h2>Classic</h2>
+                    <p class="plan-lead">The classic plan guides you through portions of the Old and New Testaments, a Psalm, and a section of Proverbs every day</p>
+                    <div class="plan-links-div">
+                        <a class="plan-links" href="#">6 Month</a>
+                        <a class="plan-links" href="#">1 Year</a>
+                        <a class="plan-links" href="#">3 Year</a>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <hr class="container">
+
+            <!-- Canonical -->
+            <div class="canonical">
+                <div class="plans">
+                    <h2>Canonical</h2>
+                    <p class="plan-lead">The classic plan guides you through portions of the Old and New Testaments, a Psalm, and a section of Proverbs every day</p>
+                    <div class="plan-links-div">
+                        <a class="plan-links" href="#">6 Month</a>
+                        <a class="plan-links" href="#">1 Year</a>
+                        <a class="plan-links" href="#">3 Year</a>
+                    </div>
+                </div>
+                <div class="plan-image"></div>
+            </div>
+
+            <hr class="container">
+
+            <!-- Chronological -->
+            <div class="chronological">
+                <div class="plan-image"></div>
+                <div class="plans">
+                    <h2>Chronological</h2>
+                    <p class="plan-lead">The classic plan guides you through portions of the Old and New Testaments, a Psalm, and a section of Proverbs every day</p>
+                    <div class="plan-links-div">
+                        <a class="plan-links" href="#">6 Month</a>
+                        <a class="plan-links" href="#">1 Year</a>
+                        <a class="plan-links" href="#">3 Year</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App -->
+         <section id="app">
+            <div class="app container">
+                <a href="#"><i class="fa-brands fa-app-store-ios"></i></a>
+                <div>
+                    <h4>Try the App Today!</h4>
+                    <p class="app-lead">Take the Holy Bible with you everyday so you'll never miss a day</p>
+                    <a href="#" class="app-link">Get the App</a>
+                </div>
+                <a href="#"><i class="fa-brands fa-google-play"></i></a>
+            </div>
+         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <p class="footer-logo">The Daily <i class="fa-solid fa-book-open-reader"></i>ord</p>
+        <p>|</p>
+        <p>&copy; 2025</p>
+        <p>|</p>
+        <p><a href="#"><i class="fa-solid fa-user-astronaut"></i></a></p>
+    </footer>
+
+    <!-- Daily Tasks -->
+     <button class="open-tasks">
+        <i class="fa-solid fa-list-check"></i>
+    </button>
+    <dialog class="tasks-dialog">
+        <div class="tasks-header">
+            <div></div>
+            <h2>Daily Tasks</h2>
+            <button class="close-tasks">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="tasks-body">
+            <div class="form-control">
+                <input type="checkbox" id="thanks" name="daily-tasks" />
+                <label for="thanks"
+                    ><span>Give Thanks</span> - Express gratitude in some
+                    way (prayer, acts of kindness)</label
+                >
+            </div>
+            <div class="form-control">
+                <input type="checkbox" id="scripture" name="daily-tasks" />
+                <label for="scripture"
+                    ><span>Read Scripture</span> - Immerse yourself in the
+                    word of God for a minimum of 15 minutes a day</label
+                >
+            </div>
+            <div class="form-control">
+                <input type="checkbox" id="time" name="daily-tasks" />
+                <label for="time"
+                    ><span>Spend Time with God</span> - Pray, meditate,
+                    and/or journal for 5 minutes</label
+                >
+            </div>
+        </div>
+    </dialog>
 </body>
 </html>
