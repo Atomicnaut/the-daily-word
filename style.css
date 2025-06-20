@@ -479,7 +479,7 @@ footer a:hover {
 }
 
 .tasks-dialog {
-	background-color: var(--black);
+	background-color: var(--beige);
 	border-radius: 0.3rem;
 	color: var(--navy);
 	padding: 2rem 1rem;
